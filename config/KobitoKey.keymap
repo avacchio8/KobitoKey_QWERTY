@@ -130,6 +130,7 @@
         };
 
         layer_4 {
+            label = "NONE";
             bindings = <
 &bootloader  &trans  &trans  &trans          &trans  &trans          &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &studio_unlock  &trans  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans
@@ -139,6 +140,7 @@
         };
 
         layer_5 {
+            label = "CUSTOM";
             bindings = <
 &kp ESC              &kp LG(LS(C))     &kp LG(V)          &kp LG(LC(T))      &kp LG(LS(T))      &kp TAB  &kp LA(PRINTSCREEN)  &kp LC(C)  &kp LC(V)  &trans
 &kp LS(LG(S))        &kp LCTRL         &kp LALT           &kp LSHFT          &trans             &trans   &kp RSHFT            &kp RALT   &kp RCTRL  &kp GRAVE
